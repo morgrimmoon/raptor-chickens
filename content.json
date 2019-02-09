@@ -1,0 +1,53 @@
+{
+	"Format": "1.6",
+	"Changes": [
+	
+	//white chicken
+		{
+			"Action": "Load",
+			"Target": "Animals/White Chicken",
+			"FromFile": "assets/WhiteRaptor.png"
+		},
+		
+		{	"Action": "Load",
+			"Target": "Animals/BabyWhite Chicken",
+			"FromFile": "assets/BabyWhiteRaptor.png"
+		},
+		
+	//brown chicken
+		{
+			"Action": "Load",
+			"Target": "Animals/Brown Chicken",
+			"FromFile": "assets/BrownRaptor.png"
+		},
+		
+		{	"Action": "Load",
+			"Target": "Animals/BabyBrown Chicken",
+			"FromFile": "assets/BabyBrownRaptor.png"
+		},
+		
+	//Blue chicken
+	{
+			"Action": "Load",
+			"Target": "Animals/Blue Chicken",
+			"FromFile": "assets/BlueRaptor.png"
+		},
+		
+		{	"Action": "Load",
+			"Target": "Animals/BabyBlue Chicken",
+			"FromFile": "assets/BabyBlueRaptor.png"
+		},
+		
+	//Void chicken
+	{
+			"Action": "Load",
+			"Target": "Animals/Void Chicken",
+			"FromFile": "assets/VoidRaptor.png"
+		},
+		
+		{	"Action": "Load",
+			"Target": "Animals/BabyVoid Chicken",
+			"FromFile": "assets/BabyVoidRaptor.png"
+		}
+	]
+}

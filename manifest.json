@@ -1,0 +1,12 @@
+{
+   "Name": "Morgrim's Raptor Chickens",
+   "Author": "Morgrim",
+   "Version": "1.0.0",
+   "Description": "Replaces the chicken sprites with colourful raptors",
+   "UniqueID": "Morgrim.RaptorChickens",
+   "MinimumApiVersion": "2.9.0",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
