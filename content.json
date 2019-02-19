@@ -27,7 +27,7 @@
 		},
 		
 	//Blue chicken
-	{
+		{
 			"Action": "Load",
 			"Target": "Animals/Blue Chicken",
 			"FromFile": "assets/BlueRaptor.png"
@@ -39,7 +39,7 @@
 		},
 		
 	//Void chicken
-	{
+		{
 			"Action": "Load",
 			"Target": "Animals/Void Chicken",
 			"FromFile": "assets/VoidRaptor.png"
@@ -48,6 +48,14 @@
 		{	"Action": "Load",
 			"Target": "Animals/BabyVoid Chicken",
 			"FromFile": "assets/BabyVoidRaptor.png"
+		},
+		
+	//Shane sprite
+		{
+			"Action": "Load",
+			"Target": "Characters/Shane",
+			"FromFile": "assets/Shanesprite.png"
+			"ToArea": { "X": 0, "Y": 228, "Width": 32, "Height": 28 }
 		}
 	]
 }
