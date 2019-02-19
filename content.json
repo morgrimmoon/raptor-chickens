@@ -52,9 +52,9 @@
 		
 	//Shane sprite
 		{
-			"Action": "Load",
+			"Action": "Editimage",
 			"Target": "Characters/Shane",
-			"FromFile": "assets/Shanesprite.png"
+			"FromFile": "assets/Shanesprite.png",
 			"ToArea": { "X": 0, "Y": 228, "Width": 32, "Height": 28 }
 		}
 	]
