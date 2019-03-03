@@ -52,10 +52,18 @@
 		
 	//Shane sprite
 		{
-			"Action": "Editimage",
+			"Action": "EditImage",
 			"Target": "Characters/Shane",
 			"FromFile": "assets/Shanesprite.png",
 			"ToArea": { "X": 0, "Y": 228, "Width": 32, "Height": 28 }
+		},
+		
+	//Purchase image at Marnie's
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/RaptorPurchase.png",
+			"ToArea": { "X": 3, "Y": 448, "Width": 26, "Height": 16 }
 		}
 	]
 }
