@@ -64,6 +64,83 @@
 			"Target": "LooseSprites/Cursors",
 			"FromFile": "assets/RaptorPurchase.png",
 			"ToArea": { "X": 3, "Y": 448, "Width": 26, "Height": 16 }
+		},
+		
+	//Egg description
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"Fields": {
+				"176": {
+					5: "A regular white raptor egg."
+						},
+				"180": {
+					5: "A regular brown raptor egg."
+						}
+					}
+		},
+		
+	//Chicken Description. Not sure where this is used?
+		{
+			"Action": "EditData",
+			"Target": "Data/Blueprints",
+			"Fields": {
+				"Chicken": {
+					4: "Raptor"
+							}
+					}
+		},
+		
+	//Descriptions in Marnie's shop
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Fields": {
+				"PurchaseAnimalsMenu.cs.11334": {
+					0: "Well cared-for adult raptors lay eggs every day."
+						},
+				"Utility.cs.5922": {
+					0: "Raptor"
+						}
+					}
+		},
+		
+	//Shane's dialogue
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"Sat4": "$d Joja#I'm renting my room from Marnie at a really good price. It's small but I can't complain.|If I could reset my life maybe I'd start a raptor farm. Only free-range eggs of course.",
+				"Sat8": "I've really grown attached to Marnie's raptors.$h"
+						}
+		},
+		
+	//Shane's married dialogue
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"Entries": {
+				"spring_12": "The egg festival is probably my favorite... you know how I am, I go crazy for anything to do with raptors.$h"
+						}
+		},
+		
+	//Marnie's dialogue
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {
+				"Mon4": "Animals are so innocent, so sweet. And If I don't look after them, who will?$s#$e#I just hope my raptors aren't too upset when I take their eggs.$s",
+				"Tue": "My nephew Shane has been staying at my place the last few months.#$e#He helps me out with the raptors, so I'm not complaining."
+						}
+		},
+		
+	//Mail
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"Duck": "Dear @,^You've proven your ability to raise raptors, so I'm now selling trickier to raise animals at my shop!       ^   -Marnie"
+						}
 		}
 	]
 }
