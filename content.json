@@ -58,6 +58,14 @@
 			"ToArea": { "X": 0, "Y": 228, "Width": 32, "Height": 28 }
 		},
 		
+	//Shane portrait
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Shane",
+			"FromFile": "assets/Shaneportrait.png",
+			"ToArea": { "X": 0, "Y": 256, "Width": 128, "Height": 64 }
+		},
+		
 	//Purchase image at Marnie's
 		{
 			"Action": "EditImage",
